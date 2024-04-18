@@ -7,7 +7,7 @@ import { Row, Col, Form, Button } from 'react-bootstrap';
 // URL de la API Laravel
 
 
-const API_URL = 'http://localhost/tuviaje/public/api/set-usuario';
+const API_URL = 'http://turisfly.com/public/api/set-usuario';
 
 
 const Registro = () => {
