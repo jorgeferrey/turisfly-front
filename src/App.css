@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.menu{
+  position: absolute;
+  text-align: right;
+  top: 0px;
+  right: 0px;
+  margin: 5px;
+  width: 1450px;
+  height: 60px;
+  background:transparent;
+}
+.contenedor-inicio{
+  height: 715px;
+  width: 1450px;
+  background-color: pink;
+}
+.inicio-imagen{
+  height: 715px;
+  width: 1450px;
+}
+.inicio-texto{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 375px;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedor-presentacion{
+  display: flex;
+  flex-direction: row;
+  height: 715px;
+  width: 1450px;
+  background-color:white;
+}
+.presentacion-foto{
+  height: 300px;
+  width: 150px;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+.presentacion-rectangulo{
+  height: 400px;
+  width: 15px;
+  margin-left:320px;
+  margin-top: 150px;
+  background-color:blueviolet ;
+}
+.presentacion-descripcion{
+  height: 300px;
+  width: 850px;
+}
+.presentacion-parrafo{
+  margin-top: 180px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carrusel{
+  height: 715px;
+  background-color: white;
+}
+.ofertas{
+  height: 715px;
+  background-color:white;
+}
+.registros{
+  height: 715px;
+  background-color: orange;
+}
+.menu-item{
+  text-decoration: none;
+  display: inline;
+  padding: 20px 20px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+  color: white;
+}
+.top-btn-position{
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+
+}
+
+.top-btn-style{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  background-color: white;
+  color:black;
+}
+.top-btn-style:hover {
+  animation: none;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
+}
